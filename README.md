@@ -7,13 +7,13 @@ Carbon.Notification Package for Neos CMS
 
 This package provides a tiny fusion helper for notifications.
 
-[Carbon.Notification:Tag](Resources/Private/Fusion/Tag.fusion)
+[Carbon.Notification:Tag](Resources/Private/TypoScript/Tag.fusion)
 --------------------------------------------------------------
 Add a notification. `type` can be `alert`, `warning` (default) or `info`.
 You need to set `content` to get the notification show.
 Great for NodeTypes who need an input in the inspector.
 
-[Carbon.Notification:Backend](Resources/Private/Fusion/Backend.fusion)
+[Carbon.Notification:Backend](Resources/Private/TypoScript/Backend.fusion)
 ----------------------------------------------------------------------
 A variant from `Carbon.Notification:Tag`. This notification get only shown in the backend.
 
