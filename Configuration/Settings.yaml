@@ -13,6 +13,6 @@ TYPO3:
         autoInclude:
           Carbon.Notification:
             - 'NodeTypes/*'
-    fusion:
+    typoScript:
       autoInclude:
         Carbon.Notification: true
